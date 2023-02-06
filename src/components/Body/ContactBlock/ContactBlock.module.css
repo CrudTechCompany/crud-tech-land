@@ -1,0 +1,102 @@
+.contact-block {
+  margin-top: 248px;
+  height: 624px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: rgba(39, 39, 41, 1);
+}
+.contact-block-title {
+  font-size: 200px;
+  font-weight: 700;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 245px;
+  color: rgba(6, 105, 247, 1);
+  text-shadow: 0 0 250px rgba(6, 105, 247, 1);
+}
+.tel-block {
+  border-radius: 20px;
+  position: absolute;
+  width: 280px;
+  height: 570px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(6, 105, 247, 1);
+  backdrop-filter: blur(20px);
+  rotate: 30deg;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: 200ms;
+}
+.tel-block:hover {
+  rotate: 0deg;
+}
+.tel-block:hover .button-block {
+  rotate: 0deg;
+}
+.button-block {
+  position: absolute;
+  width: 200.14px;
+  height: 200.15px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(6, 105, 247, 1);
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  rotate: -30deg;
+  transition: 200ms;
+  
+}
+.plus-icon {
+  width: 40px;
+  height: 40px;
+}
+.button-block h4 {
+  max-width: 124.09px;
+  text-align: center;
+  margin: 5px 0 0 0;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 20.84px;
+  color: rgba(255, 255, 255, 1);
+}
+.bottom-block {
+  width: 153.85px;
+  position: absolute;
+  top: 410px;
+  left: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  rotate: -10deg;
+  pointer-events: none;
+}
+.bottom-block-arrow {
+  margin-left: 45px;
+  width: 32px;
+  height: 62px;
+  rotate: -35deg;
+}
+.bottom-block-description {
+  max-width: 153.85px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  font-style: normal;
+  line-height: 29.33px;
+  color: rgba(255, 255, 255, 1);
+}

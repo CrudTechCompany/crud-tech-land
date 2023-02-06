@@ -1,0 +1,31 @@
+.header {
+  border-radius: 0 0 32px 32px;
+  width: calc(100% - 300px);
+  max-width: 1300px;
+  height: 118px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(6px 8px 16px rgba(0, 0, 0, 0.4));
+}
+.rectangle {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  max-width: 1300px;
+  height: 118px;
+}
+.mask {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  max-width: 1300px;
+  height: 118px;
+}
+
+@media (max-width: 1440px) {
+  .header{
+    width: calc(100% - 200px);
+  }
+}

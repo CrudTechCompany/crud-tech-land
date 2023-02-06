@@ -1,0 +1,21 @@
+.app {
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  width: 100%;
+  max-width: 1600px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(39, 39, 41, 1);
+}
+
+:root {
+  --font-family: "Nanum Gothic", sans-serif;
+}
